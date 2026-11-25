@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_calculator">
+
+    <!-- Zona de display: expressió i resultat -->
+
+    <!-- Graella de botons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="603dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:gravity="end|bottom"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Text de l'expressió en curs -->
+        <TextView
+            android:id="@+id/textExpressio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="end"
+            android:maxLines="3"
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textResultat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/resultat_inicial"
+                android:textColor="#FFFFFFFF"
+                android:textSize="32sp" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="6"
+        android:useDefaultMargins="true">
+
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/boto0"
+            style="@style/BotoCalculadora.Boto.Numero"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_0" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/boto1"
+            style="@style/BotoCalculadora.Boto.Numero"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_1" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/boto2"
+            style="@style/BotoCalculadora.Boto.Numero"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_2" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/boto3"
+            style="@style/BotoCalculadora.Boto.Numero"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_3" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/boto4"
+            style="@style/BotoCalculadora.Boto.Numero"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_4" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/boto5"
+            style="@style/BotoCalculadora.Boto.Numero"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_5" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/boto6"
+            style="@style/BotoCalculadora.Boto.Numero"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_6" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/boto7"
+            style="@style/BotoCalculadora.Boto.Numero"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_7" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/boto8"
+            style="@style/BotoCalculadora.Boto.Numero"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_8" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/boto9"
+            style="@style/BotoCalculadora.Boto.Numero"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_9" />
+
+        <!--zona de botones especiales-->
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/botoParentesiObert"
+            style="@style/BotoCalculadora.Boto.Funcio"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_parentesi_obert" />
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/botoParentesitancat"
+            style="@style/BotoCalculadora.Boto.Funcio"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_parentesi_tancat" />
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/botopunt"
+            style="@style/BotoCalculadora.Boto.Funcio"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_punt" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/botoComa"
+            style="@style/BotoCalculadora.Boto.Funcio"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_Coma" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/botoC"
+            style="@style/BotoCalculadora.Boto.Funcio"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_C" />
+
+
+
+
+        <!--zona de botones Naranjas-->
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/botoSumar"
+            style="@style/BotoCalculadora.Boto.Operacio"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_sumar" />
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/botomultiplicar"
+            style="@style/BotoCalculadora.Boto.Operacio"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_multiplicar" />
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/botodividir"
+            style="@style/BotoCalculadora.Boto.Operacio"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_dividir" />
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/botoRestar"
+            style="@style/BotoCalculadora.Boto.Operacio"
+            android:layout_columnWeight="1"
+            android:text="-" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/botoborrar"
+            style="@style/BotoCalculadora.Boto.Operacio"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_borrar" />
+
+        <Button
+            android:layout_width="40dp"
+            android:id="@+id/botoigual"
+            style="@style/BotoCalculadora.Boto.igual"
+            android:layout_columnWeight="1"
+            android:text="@string/boto_igual" />
+
+
+
+
+
+
+    </GridLayout>
+
+</LinearLayout>

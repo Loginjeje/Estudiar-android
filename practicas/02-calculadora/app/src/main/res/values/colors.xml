@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="boto_funcio">#FF505050</color>
+
+
+    <color name="boto_funcio_text">#FFFFFFFF</color>
+    <color name="boto_funcio_textAlter">#000000</color>
+    <color name="background_calculator">#FF1C1C1C</color>
+
+    <color name="boto_operacio">#FFFF9F0A</color>
+    <color name="boto_igual">#90D5FF</color>
+    <color name="boto_operacio_text">#FFFFFFFF</color>
+
+    <color name="boto_numero">#FF333333</color>
+    <color name="boto_numero_text">#FFFFFFFF</color>
+
+
+    <!-- Definir la resta de colors -->
+</resources>

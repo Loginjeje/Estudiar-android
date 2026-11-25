@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalculadoraB</string>
+
+
+    <string name="boto_parentesi_obert">(</string>
+    <string name="boto_parentesi_tancat">)</string>
+    <string name="boto_punt">.</string>
+    <string name="boto_Coma">,</string>
+    <string name="boto_C">C</string>
+
+    <string name="boto_0">0</string>
+    <string name="boto_1">1</string>
+    <string name="boto_2">2</string>
+    <string name="boto_3">3</string>
+    <string name="boto_4">4</string>
+    <string name="boto_5">5</string>
+    <string name="boto_6">6</string>
+    <string name="boto_7">7</string>
+    <string name="boto_8">8</string>
+    <string name="boto_9">9</string>
+
+    <string name="boto_sumar">+</string>
+    <string name="boto_igual">=</string>
+    <string name="boto_Restar">-</string>
+    <string name="boto_borrar">⌫</string>
+    <string name="boto_multiplicar">×</string>
+    <string name="boto_dividir">÷</string>
+    <string name="error_expressio">Se ha rayao esto</string>
+    <string name="resultat_inicial"></string>
+
+
+</resources>

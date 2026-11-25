@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CicleVidaApp</string>
+    <string name="estat_inicial">Estat: esperant...</string>
+
+    <string name="estado_on_create">Estado: onCreate()</string>
+    <string name="estado_on_start">Estado: onStart()</string>
+    <string name="estado_on_resume">Estado: onResume()</string>
+    <string name="estado_on_pause">Estado: onPause()</string>
+    <string name="estado_on_stop">Estado: onStop()</string>
+    <string name="estado_on_destroy">Estado: onDestroy()</string>
+
+    <string name="comptador_creacions">Creaciones: %1$d</string>
+</resources>

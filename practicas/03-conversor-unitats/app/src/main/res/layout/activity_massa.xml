@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_valor" android:textColor="@color/text_primary" />
+        <EditText android:id="@+id/editValor" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_valor" android:inputType="numberDecimal|numberSigned" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/label_de" android:textColor="@color/text_primary" />
+        <RadioGroup android:id="@+id/radioGroupDe" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/primary_container" android:orientation="vertical" android:padding="8dp">
+            <RadioButton android:id="@+id/radioQuilogram" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/quilogram" />
+            <RadioButton android:id="@+id/radioLliura" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lliura" />
+            <RadioButton android:id="@+id/radioUnca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unca" />
+        </RadioGroup>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/label_a" android:textColor="@color/text_primary" />
+        <RadioGroup android:id="@+id/radioGroupA" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/primary_container" android:orientation="vertical" android:padding="8dp">
+            <RadioButton android:id="@+id/radioQuilogramA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/quilogram" />
+            <RadioButton android:id="@+id/radioLliuraA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lliura" />
+            <RadioButton android:id="@+id/radioUncaA" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unca" />
+        </RadioGroup>
+        <Button android:id="@+id/botoConvertir" style="@style/BotoConversor.Boto.Primary" android:layout_marginTop="24dp" android:text="@string/boto_convertir" />
+        <TextView android:id="@+id/textResultat" style="@style/TextResultat" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/resultat_inicial" />
+    </LinearLayout>
+</ScrollView>

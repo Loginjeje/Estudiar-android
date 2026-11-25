@@ -1,0 +1,26 @@
+# Android / Gradle (especific del projecte)
+build/
+.gradle/
+.kotlin/
+captures/
+.cxx/
+local.properties
+*.iml
+.idea/
+.apk
+.aab
+.ap_
+.dex
+
+# JKS / Keystores (registres de signatura)
+*.jks
+*.keystore
+
+# Secrets de configuraci? de Google (si mai s'afegeixen)
+google-services.json
+
+# Sistema operatiu
+.DS_Store
+Thumbs.db
+desktop.ini
+

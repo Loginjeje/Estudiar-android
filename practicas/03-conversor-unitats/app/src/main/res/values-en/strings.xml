@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="boto_temperatura">Temperature</string>
+    <string name="boto_longitud">Length</string>
+    <string name="boto_massa">Mass</string>
+    <string name="menu_subtitle">Select a quantity to convert</string>
+    <string name="temperatura_titol">Temperature Converter</string>
+    <string name="longitud_titol">Length Converter</string>
+    <string name="massa_titol">Mass Converter</string>
+    <string name="label_valor">Enter the value:</string>
+    <string name="hint_valor">Ex: 25.5</string>
+    <string name="label_de">Convert from:</string>
+    <string name="label_a">Convert to:</string>
+    <string name="boto_convertir">Convert</string>
+    <string name="celsius">Celsius (°C)</string>
+    <string name="fahrenheit">Fahrenheit (°F)</string>
+    <string name="kelvin">Kelvin (K)</string>
+    <string name="quilometre">Kilometre (km)</string>
+    <string name="milla">Mile (mi)</string>
+    <string name="yarda">Yard (yd)</string>
+    <string name="quilogram">Kilogram (kg)</string>
+    <string name="lliura">Pound (lb)</string>
+    <string name="unca">Ounce (oz)</string>
+    <string name="resultat_label">Result:</string>
+    <string name="resultat_inicial">—</string>
+    <string name="error_buid">Enter a value</string>
+    <string name="error_numeric">Enter a valid number</string>
+    <string name="error_unitats">Select different units</string>
+    <string name="error_generic">Conversion error</string>
+</resources>
